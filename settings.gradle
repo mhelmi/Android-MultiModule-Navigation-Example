@@ -1,0 +1,6 @@
+include ':dashboard'
+include ':navigation'
+include ':home'
+include ':app'
+include ':externalActivity'
+rootProject.name = "MultiModuleNavigationExample"

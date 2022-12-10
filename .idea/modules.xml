@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MultiModuleNavigationExample.iml" filepath="$PROJECT_DIR$/.idea/modules/MultiModuleNavigationExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MultiModuleNavigationExample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MultiModuleNavigationExample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MultiModuleNavigationExample.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MultiModuleNavigationExample.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MultiModuleNavigationExample.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MultiModuleNavigationExample.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MultiModuleNavigationExample.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MultiModuleNavigationExample.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashboard/MultiModuleNavigationExample.dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/dashboard/MultiModuleNavigationExample.dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashboard/MultiModuleNavigationExample.dashboard.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dashboard/MultiModuleNavigationExample.dashboard.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashboard/MultiModuleNavigationExample.dashboard.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dashboard/MultiModuleNavigationExample.dashboard.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashboard/MultiModuleNavigationExample.dashboard.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dashboard/MultiModuleNavigationExample.dashboard.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/externalActivity/MultiModuleNavigationExample.externalActivity.iml" filepath="$PROJECT_DIR$/.idea/modules/externalActivity/MultiModuleNavigationExample.externalActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/externalActivity/MultiModuleNavigationExample.externalActivity.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/externalActivity/MultiModuleNavigationExample.externalActivity.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/externalActivity/MultiModuleNavigationExample.externalActivity.main.iml" filepath="$PROJECT_DIR$/.idea/modules/externalActivity/MultiModuleNavigationExample.externalActivity.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/externalActivity/MultiModuleNavigationExample.externalActivity.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/externalActivity/MultiModuleNavigationExample.externalActivity.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home/MultiModuleNavigationExample.home.iml" filepath="$PROJECT_DIR$/.idea/modules/home/MultiModuleNavigationExample.home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home/MultiModuleNavigationExample.home.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/home/MultiModuleNavigationExample.home.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home/MultiModuleNavigationExample.home.main.iml" filepath="$PROJECT_DIR$/.idea/modules/home/MultiModuleNavigationExample.home.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home/MultiModuleNavigationExample.home.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/home/MultiModuleNavigationExample.home.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/MultiModuleNavigationExample.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/MultiModuleNavigationExample.navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/MultiModuleNavigationExample.navigation.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/MultiModuleNavigationExample.navigation.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/MultiModuleNavigationExample.navigation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/MultiModuleNavigationExample.navigation.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/MultiModuleNavigationExample.navigation.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/MultiModuleNavigationExample.navigation.unitTest.iml" />
+    </modules>
+  </component>
+</project>

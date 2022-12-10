@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="dashboard">Dashboard Screen</string>
+  <string name="nav_to_home_flow">Navigate to Home flow</string>
+  <string name="nav_to_next">Navigate to Home Details Screen via deeplink</string>
+</resources>

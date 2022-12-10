@@ -1,0 +1,8 @@
+<resources>
+  <string name="home_fragment">Home Screen</string>
+  <string name="details_fragment">Details Screen</string>
+  <string name="to_details_fragment">To Details Screen</string>
+  <string name="to_dashboard">Navigate to dashboard flow</string>
+  <string name="to_dashboard_fragment_via_deeplink">To dashboard fragment via deeplink</string>
+  <string name="to_external_activity_via_deeplink">To External Activity via deeplink</string>
+</resources>
