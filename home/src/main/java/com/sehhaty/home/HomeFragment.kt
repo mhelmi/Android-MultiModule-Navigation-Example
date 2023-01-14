@@ -6,6 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.gson.Gson
+import com.sehhaty.navigation.Data
+import com.sehhaty.navigation.Hamada
 import com.sehhaty.navigation.User
 import com.sehhaty.navigation.popGraphBackStack
 import kotlinx.android.synthetic.main.fragment_home.*
@@ -27,10 +30,13 @@ class HomeFragment : Fragment() {
     to_next_fragment_btn.setOnClickListener {
       findNavController().navigate(
         HomeFragmentDirections.actionHomeFragmentToNextFragment(
-          User(
-            2,
-            "Ahmed"
-          )
+          Gson().toJson(
+            User(
+              2,
+              "Ahmed"
+            )
+          ),
+          Gson().toJson(Hamada(43, "1332"))
         )
       )
     }

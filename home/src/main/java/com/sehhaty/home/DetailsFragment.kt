@@ -10,7 +10,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.google.gson.Gson
 import com.sehhaty.navigation.DeepLinkDestination
+import com.sehhaty.navigation.Hamada
+import com.sehhaty.navigation.User
 import com.sehhaty.navigation.navigateToActivityDeeplink
 import com.sehhaty.navigation.popGraphBackStack
 import kotlinx.android.synthetic.main.fragment_next.*
@@ -22,7 +25,16 @@ class DetailsFragment : Fragment() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    Toast.makeText(context, "User name is: ${args.user.name}", Toast.LENGTH_SHORT).show()
+    Toast.makeText(
+      context,
+      "User name is: ${
+        Gson().fromJson(
+          args.user,
+          User::class.java
+        ).name
+      } && Hamada age is: ${Gson().fromJson(args.hamada, Hamada::class.java).age}",
+      Toast.LENGTH_SHORT
+    ).show()
   }
 
   override fun onCreateView(

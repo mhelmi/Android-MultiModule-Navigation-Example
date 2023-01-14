@@ -20,11 +20,15 @@
 
     <argument
       android:name="user"
-      app:argType="com.sehhaty.navigation.User" />
+      app:argType="string" />
+
+    <argument
+      android:name="hamada"
+      app:argType="string" />
 
     <deepLink
       android:id="@+id/deepLink"
-      app:uri="sehhaty://details?user={user}" />
+      app:uri="sehhaty://details?user={user}&amp;hamada={hamada}" />
   </fragment>
 
 </navigation>

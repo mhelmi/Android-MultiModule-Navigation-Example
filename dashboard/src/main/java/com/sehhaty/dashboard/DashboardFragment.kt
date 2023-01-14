@@ -9,7 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.setFragmentResultListener
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.sehhaty.navigation.Data
 import com.sehhaty.navigation.DeepLinkDestination
+import com.sehhaty.navigation.Hamada
 import com.sehhaty.navigation.User
 import com.sehhaty.navigation.navigateToDeepLink
 import kotlinx.android.synthetic.main.fragment_dashboard.*
@@ -48,7 +50,7 @@ class DashboardFragment : Fragment() {
     }
 
     navigate_to_details_deeplink.setOnClickListener {
-      findNavController().navigateToDeepLink(DeepLinkDestination.Details(User()))
+      findNavController().navigateToDeepLink(DeepLinkDestination.Details(User(), Hamada()))
     }
   }
 }
